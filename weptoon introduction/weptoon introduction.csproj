@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0AFCA22C-F533-4895-A3C4-0903064E9773}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>weptoon_introduction</RootNamespace>
+    <AssemblyName>weptoon introduction</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Frist Form\Dont ID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frist Form\Dont ID.Designer.cs">
+      <DependentUpon>Dont ID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frist Form\FirstForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frist Form\FirstForm.Designer.cs">
+      <DependentUpon>FirstForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ganre\Action.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ganre\Action.Designer.cs">
+      <DependentUpon>Action.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ganre\comedy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ganre\comedy.Designer.cs">
+      <DependentUpon>comedy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ganre\Costume drama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ganre\Costume drama.Designer.cs">
+      <DependentUpon>Costume drama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ganre\Everyday life.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ganre\Everyday life.Designer.cs">
+      <DependentUpon>Everyday life.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ganre\Fantasy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ganre\Fantasy.Designer.cs">
+      <DependentUpon>Fantasy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ganre\Pure love.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ganre\Pure love.Designer.cs">
+      <DependentUpon>Pure love.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ganre\Sensitivity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ganre\Sensitivity.Designer.cs">
+      <DependentUpon>Sensitivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ganre\Sports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ganre\Sports.Designer.cs">
+      <DependentUpon>Sports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ganre\Thriller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ganre\Thriller.Designer.cs">
+      <DependentUpon>Thriller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ID\Joinmembership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ID\Joinmembership.Designer.cs">
+      <DependentUpon>Joinmembership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ID\membership withdrawal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ID\membership withdrawal.Designer.cs">
+      <DependentUpon>membership withdrawal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ID\reserch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ID\reserch.Designer.cs">
+      <DependentUpon>reserch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frist Form\Dont ID.resx">
+      <DependentUpon>Dont ID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frist Form\FirstForm.resx">
+      <DependentUpon>FirstForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ganre\Action.resx">
+      <DependentUpon>Action.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ganre\comedy.resx">
+      <DependentUpon>comedy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ganre\Costume drama.resx">
+      <DependentUpon>Costume drama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ganre\Everyday life.resx">
+      <DependentUpon>Everyday life.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ganre\Fantasy.resx">
+      <DependentUpon>Fantasy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ganre\Pure love.resx">
+      <DependentUpon>Pure love.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ganre\Sensitivity.resx">
+      <DependentUpon>Sensitivity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ganre\Sports.resx">
+      <DependentUpon>Sports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ganre\Thriller.resx">
+      <DependentUpon>Thriller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ID\Joinmembership.resx">
+      <DependentUpon>Joinmembership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ID\membership withdrawal.resx">
+      <DependentUpon>membership withdrawal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ID\reserch.resx">
+      <DependentUpon>reserch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="netmarbleB.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\netmarbleB.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DB Handler\" />
+    <Folder Include="Login\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
