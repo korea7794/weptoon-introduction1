@@ -1,0 +1,12 @@
+C:\Users\KB\Desktop\weptoon introduction\weptoon introduction\bin\Debug\weptoon introduction.exe.config
+C:\Users\KB\Desktop\weptoon introduction\weptoon introduction\bin\Debug\weptoon introduction.exe
+C:\Users\KB\Desktop\weptoon introduction\weptoon introduction\bin\Debug\weptoon introduction.pdb
+C:\Users\KB\Desktop\weptoon introduction\weptoon introduction\obj\Debug\weptoon introduction.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\weptoon introduction\weptoon introduction\obj\Debug\weptoon_introduction.FirstForm.resources
+C:\Users\KB\Desktop\weptoon introduction\weptoon introduction\obj\Debug\weptoon_introduction.MainForm.resources
+C:\Users\KB\Desktop\weptoon introduction\weptoon introduction\obj\Debug\weptoon_introduction.Properties.Resources.resources
+C:\Users\KB\Desktop\weptoon introduction\weptoon introduction\obj\Debug\weptoon introduction.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\weptoon introduction\weptoon introduction\obj\Debug\weptoon introduction.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\weptoon introduction\weptoon introduction\obj\Debug\weptoon introduction.exe
+C:\Users\KB\Desktop\weptoon introduction\weptoon introduction\obj\Debug\weptoon introduction.pdb
+C:\Users\KB\Desktop\weptoon introduction\weptoon introduction\bin\Debug\netmarbleB.ttf
